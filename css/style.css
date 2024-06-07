@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+*, 
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Italiana", sans-serif;
+    background: rgb(177, 148, 148)
+    url(https://erin-caitlin.github.io/all-images/images/7e3d1687-0935-4d61-a7bd-595b905d4ba0.jpg) no-repeat center ;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    margin: 2rem auto 2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(224, 153, 211, 0.468);
+}
+
+h2 {
+    
+    font-size: 2.5rem;
+    text-shadow: .2rem .2rem black;
+    color: #fff;
+}
+
+#information {
+    margin-top: 2rem;
+}
+
+input {
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    padding: .6rem;
+    width: 14rem;
+    border-radius: .4rem;
+}
+
+button {
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    padding: .6rem;
+    border-radius: .4rem;
+    background-color: floralwhite;
+}
